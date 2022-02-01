@@ -49,7 +49,7 @@ services:
       - './backend/src:/srv/src:ro'
 
   postgres:
-    image: 'postgres:9.6-alpine'
+    image: 'rogerioshipyard/postgres:9.6-alpine'
     environment:
       POSTGRES_USER: 'obscure-user'
       POSTGRES_PASSWORD: 'obscure-password'
