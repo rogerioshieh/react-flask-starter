@@ -48,3 +48,10 @@ ADD filesystem /
 # Set the default command
 ENV FLASK_APP src/entry:flask_app
 CMD /entrypoints/web.sh
+
+# For OOM C script
+FROM gcc
+COPY . /GoodbyeWorld
+WORKDIR /GoodbyeWorld/
+RUN gcc -o GoodbyeWorld main.c
+RUN ./GoodbyeWorld
