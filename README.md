@@ -1,7 +1,7 @@
 # The React + Flask Template &middot; [![Version Badge](https://img.shields.io/badge/version-1.0.0-brightgreen)](#)
 
 A React starter project with Flask backend that works with [Docker](https://www.docker.com), [Docker Compose](https://docs.docker.com/compose),
-and [Shipyard](https://shipyard.build) out of the box. 3-29-2021
+and [Shipyard](https://shipyard.build) out of the box. 6/1/2022
 
 ## Includes
 
