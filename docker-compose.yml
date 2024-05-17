@@ -4,7 +4,7 @@ services:
 
   frontend:
     labels:
-      shipyard.route: '/'
+      shipyard.route: '/custom-route'
     build: 'frontend'
     environment:
       CI: 'true'
